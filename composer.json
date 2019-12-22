@@ -1,0 +1,52 @@
+{
+  "name": "kristories/stripe-command",
+  "description": "Stripe Command for Laravel",
+  "license": "MIT",
+  "keywords": [
+    "stripe",
+    "command",
+    "artisan",
+    "laravel"
+  ],
+  "type": "library",
+  "authors": [
+    {
+      "name": "Wahyu Kristianto",
+      "email": "w.kristories@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.2",
+    "illuminate/support": "^6.0",
+    "stripe/stripe-php": "^7.0"
+  },
+  "require-dev": {
+    "orchestra/testbench": "^4.0",
+    "phpunit/phpunit": "^8.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Kristories\\StripeCommand\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Kristories\\StripeCommand\\Tests\\": "tests"
+    }
+  },
+  "scripts": {
+    "phpunit": "phpunit"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Kristories\\StripeCommand\\ServiceProvider"
+      ]
+    }
+  },
+  "config": {
+    "preferred-install": "dist",
+    "sort-packages": true,
+    "optimize-autoloader": true
+  }
+}
