@@ -17,6 +17,8 @@ class ServiceProvider extends \Illuminate\Support\ServiceProvider
         if ($this->app->runningInConsole()) {
             $this->commands([
                 \Kristories\StripeCommand\Console\Commands\Balance\Retrieve::class,
+                \Kristories\StripeCommand\Console\Commands\BalanceTransaction\Retrieve::class,
+                \Kristories\StripeCommand\Console\Commands\BalanceTransaction\All::class,
             ]);
         }
     }
