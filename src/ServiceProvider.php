@@ -13,6 +13,12 @@ class ServiceProvider extends \Illuminate\Support\ServiceProvider
             StripeCommand::VERSION,
             'https://github.com/Kristories/laravel-stripe-command'
         );
+
+        if ($this->app->runningInConsole()) {
+            $this->commands([
+                \Kristories\StripeCommand\Console\Commands\Balance\Retrieve::class,
+            ]);
+        }
     }
 
     public function register()
