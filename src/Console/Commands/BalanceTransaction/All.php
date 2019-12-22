@@ -2,9 +2,9 @@
 
 namespace Kristories\StripeCommand\Console\Commands\BalanceTransaction;
 
-use Stripe\BalanceTransaction;
 use Illuminate\Console\Command;
 use Kristories\StripeCommand\StripeCommand;
+use Stripe\BalanceTransaction;
 
 class All extends Command
 {
