@@ -1,5 +1,5 @@
 {
-  "name": "kristories/stripe-command",
+  "name": "kristories/laravel-stripe-command",
   "description": "Stripe Command for Laravel",
   "license": "MIT",
   "keywords": [
