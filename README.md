@@ -71,5 +71,13 @@ composer require kristories/laravel-stripe-command
 
 ## Security
 
-If you discover any security related issues, please email `w.kristories@gmail.com`
-instead of using the issue tracker.
+If you discover any security related issues, please email `w.kristories@gmail.com` instead of using the issue tracker.
+
+## Credits
+
+- [Wahyu Kristianto](https://github.com/kristories)
+- [All contributors](https://github.com/kristories/laravel-stripe-command/graphs/contributors)
+
+## License
+
+The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
