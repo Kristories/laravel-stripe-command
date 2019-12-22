@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/kristories/laravel-stripe-command.svg?branch=master)](https://travis-ci.org/kristories/laravel-stripe-command)
 [![styleci](https://styleci.io/repos/229574465/shield)](https://styleci.io/repos/229574465)
-[![Coverage Status](https://coveralls.io/repos/github/kristories/laravel-stripe-command/badge.svg?branch=master)](https://coveralls.io/github/kristories/laravel-stripe-command?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/Kristories/laravel-stripe-command/badge.svg?branch=master)](https://coveralls.io/github/Kristories/laravel-stripe-command?branch=master)
 
 [![Packagist](https://img.shields.io/packagist/v/kristories/laravel-stripe-command.svg)](https://packagist.org/packages/kristories/laravel-stripe-command)
 [![Packagist](https://poser.pugx.org/kristories/laravel-stripe-command/d/total.svg)](https://packagist.org/packages/kristories/laravel-stripe-command)
