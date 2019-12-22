@@ -2,9 +2,9 @@
 
 namespace Kristories\StripeCommand\Console\Commands\Balance;
 
-use Stripe\Balance;
 use Illuminate\Console\Command;
 use Kristories\StripeCommand\StripeCommand;
+use Stripe\Balance;
 
 class Retrieve extends Command
 {
@@ -42,7 +42,7 @@ class Retrieve extends Command
     public function handle()
     {
         try {
-            $call      = Balance::retrieve();
+            $call = Balance::retrieve();
             $available = collect($call->toArray()['available'])
                 ->map(function ($item) {
                     $item['status'] = 'available';
@@ -58,7 +58,7 @@ class Retrieve extends Command
                 })
                 ->toArray();
             $headers = ['Amount', 'Currency', 'Status'];
-            $data    = collect($available)->merge($pending)->toArray();
+            $data = collect($available)->merge($pending)->toArray();
 
             $this->table($headers, $data);
         } catch (\Exception $e) {

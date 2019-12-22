@@ -2,9 +2,9 @@
 
 namespace Kristories\StripeCommand\Tests;
 
-use Orchestra\Testbench\TestCase;
-use Kristories\StripeCommand\ServiceProvider;
 use Kristories\StripeCommand\Facades\StripeCommand;
+use Kristories\StripeCommand\ServiceProvider;
+use Orchestra\Testbench\TestCase;
 
 class StripeCommandTest extends TestCase
 {

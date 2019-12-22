@@ -46,7 +46,7 @@ class All extends Command
 
             if ($call) {
                 $headers = ['ID', 'Amount', 'Available on', 'Created', 'Currency', 'Description', 'Exchange rate', 'Fee', 'Net', 'Status', 'Type'];
-                $data    = collect($call->toArray()['data'])
+                $data = collect($call->toArray()['data'])
                     ->map(function ($item, $key) {
                         return collect($item)
                             ->only(['id', 'amount', 'available_on', 'created', 'currency', 'description', 'exchange_rate', 'fee', 'net', 'status', 'type']);
