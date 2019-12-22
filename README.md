@@ -19,6 +19,13 @@ composer require kristories/laravel-stripe-command
 
 ## Usage
 
+You should configure your Stripe key in your `.env` file. You can retrieve your Stripe API keys from the Stripe control panel.
+
+```
+STRIPE_KEY=your-stripe-key
+STRIPE_SECRET=your-stripe-secret
+```
+
 #### Balance
 
 ##### Retrieve balance
